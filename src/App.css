@@ -4,25 +4,36 @@ table {
   text-align: left;
   border-collapse: collapse;
   border-radius: 7px;
+  background-color: #0000006c;
+  backdrop-filter: blur(8px);
+
   background-color: #bc9d9d6c;
 }
 
 thead {
+  border-bottom: 2px solid #a7d1f1;
   border: 2px solid #0e0e0f;
   border-radius: 7%15%;
 
 }
 
 th {
- 
+
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 1rem 0.5rem;
   font-weight: 700;
+  color: #9ec5e2;
   background-color: #8e129a;;
 }
 
+td {
+  padding: 0.7rem 0.5rem;
+  color: #0e0d0d;
+}
 
 tr:hover td {
+  background-color: #00000048;
+  color: #fff;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #a82abc23;
   color: #8e129a;
@@ -35,4 +46,27 @@ td {
   color: #0d0e0e;
 }.s{
   margin-bottom: 2%;
+}
+
+.f{
+
+  margin-bottom: 2%;
+  display:flex;
+  position:center;
+  padding: 1% ;
+  gap:0.50rem;
+}
+.r{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans;
+  margin-top:2rem; 
+  display: flex;
+  justify-content: center;
+}
+.ll{
+  padding:2%
+}
+.dd{
+  display:flex;
+  align-items:center;
+  gap:1rem
 }
